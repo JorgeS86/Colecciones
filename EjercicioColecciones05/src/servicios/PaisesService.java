@@ -71,7 +71,6 @@ al usuario.*/
         boolean encontrado = false;
         while (it.hasNext()) {
             Paises paisAux = it.next();
-            System.out.println(paisAux);
             if (paisAux.getNombre().equals(paisEliminar.getNombre())) {
                 it.remove();
                 encontrado = true;
